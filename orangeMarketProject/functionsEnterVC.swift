@@ -10,7 +10,7 @@ import Foundation
 import FirebaseAuth
 import Firebase
 
-public func enterWithEmail (email: String?, pass: String?, completion: ) {
+public func enterWithEmail (email: String?, pass: String?) {
     
     var result: Bool = false
     
@@ -26,7 +26,6 @@ public func enterWithEmail (email: String?, pass: String?, completion: ) {
     })
 
         print(result)
-        return result
 }
 
 //bob.lob@mail.ru
