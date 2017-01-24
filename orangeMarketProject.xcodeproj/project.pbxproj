@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1023E933967D39DD9FAB348E /* Pods_orangeMarketProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267C2936CD851CA23EDB0DBD /* Pods_orangeMarketProject.framework */; };
+		A00A0E351E3227B0002F4F93 /* FunctionsSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00A0E341E3227B0002F4F93 /* FunctionsSearchVC.swift */; };
+		A00A0E381E322A09002F4F93 /* EnterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00A0E371E322A09002F4F93 /* EnterViewController.swift */; };
+		A00A0E3B1E322A36002F4F93 /* UIEnterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00A0E3A1E322A36002F4F93 /* UIEnterViewController.swift */; };
+		A00A0E3D1E322B07002F4F93 /* functionsEnterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00A0E3C1E322B07002F4F93 /* functionsEnterVC.swift */; };
+		A00A0E411E3231CF002F4F93 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00A0E401E3231CF002F4F93 /* RegisterViewController.swift */; };
+		A00A0E441E3231F8002F4F93 /* UIRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00A0E431E3231F8002F4F93 /* UIRegisterViewController.swift */; };
+		A019B5CF1E2CF13000966C31 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A019B5CE1E2CF13000966C31 /* SearchViewController.swift */; };
+		A019B5D31E2CF1D600966C31 /* UISearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A019B5D21E2CF1D600966C31 /* UISearchViewController.swift */; };
+		A02350FC1E3372910030BBE0 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02350FB1E3372910030BBE0 /* Items.swift */; };
+		A02351041E3378A30030BBE0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A02351031E3378A30030BBE0 /* GoogleService-Info.plist */; };
 		A0834E1B1E2902D10098C524 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0834E1A1E2902D10098C524 /* AppDelegate.swift */; };
 		A0834E1D1E2902D10098C524 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0834E1C1E2902D10098C524 /* ViewController.swift */; };
-		A0834E201E2902D10098C524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0834E1E1E2902D10098C524 /* Main.storyboard */; };
 		A0834E231E2902D10098C524 /* orangeMarketProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0834E211E2902D10098C524 /* orangeMarketProject.xcdatamodeld */; };
 		A0834E251E2902D10098C524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0834E241E2902D10098C524 /* Assets.xcassets */; };
 		A0834E281E2902D10098C524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0834E261E2902D10098C524 /* LaunchScreen.storyboard */; };
 		A0834E331E2902D10098C524 /* orangeMarketProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0834E321E2902D10098C524 /* orangeMarketProjectTests.swift */; };
 		A0834E3E1E2902D10098C524 /* orangeMarketProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0834E3D1E2902D10098C524 /* orangeMarketProjectUITests.swift */; };
+		A0834E4C1E290B350098C524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0834E4B1E290B350098C524 /* Main.storyboard */; };
+		A0B93F8A1E2CF8FD00036D2B /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B93F891E2CF8FD00036D2B /* Users.swift */; };
+		A0DFBB3A1E323F6C00CCD126 /* FunctionsRegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DFBB391E323F6C00CCD126 /* FunctionsRegisterVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +48,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		267C2936CD851CA23EDB0DBD /* Pods_orangeMarketProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_orangeMarketProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C096BA4C2E6F3DE1CE58658 /* Pods-orangeMarketProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-orangeMarketProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-orangeMarketProject/Pods-orangeMarketProject.debug.xcconfig"; sourceTree = "<group>"; };
+		9EF8D6D525985A4EE44D79F9 /* Pods-orangeMarketProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-orangeMarketProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-orangeMarketProject/Pods-orangeMarketProject.release.xcconfig"; sourceTree = "<group>"; };
+		A00A0E2F1E3222EC002F4F93 /* orangeMarketProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "orangeMarketProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		A00A0E341E3227B0002F4F93 /* FunctionsSearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionsSearchVC.swift; sourceTree = "<group>"; };
+		A00A0E371E322A09002F4F93 /* EnterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterViewController.swift; sourceTree = "<group>"; };
+		A00A0E3A1E322A36002F4F93 /* UIEnterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIEnterViewController.swift; sourceTree = "<group>"; };
+		A00A0E3C1E322B07002F4F93 /* functionsEnterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = functionsEnterVC.swift; sourceTree = "<group>"; };
+		A00A0E401E3231CF002F4F93 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A00A0E431E3231F8002F4F93 /* UIRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIRegisterViewController.swift; sourceTree = "<group>"; };
+		A019B5CE1E2CF13000966C31 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		A019B5D21E2CF1D600966C31 /* UISearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISearchViewController.swift; sourceTree = "<group>"; };
+		A02350FB1E3372910030BBE0 /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		A02351031E3378A30030BBE0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A0834E171E2902D10098C524 /* orangeMarketProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = orangeMarketProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0834E1A1E2902D10098C524 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0834E1C1E2902D10098C524 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A0834E1F1E2902D10098C524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0834E221E2902D10098C524 /* orangeMarketProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = orangeMarketProject.xcdatamodel; sourceTree = "<group>"; };
 		A0834E241E2902D10098C524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0834E271E2902D10098C524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +75,10 @@
 		A0834E391E2902D10098C524 /* orangeMarketProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = orangeMarketProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0834E3D1E2902D10098C524 /* orangeMarketProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orangeMarketProjectUITests.swift; sourceTree = "<group>"; };
 		A0834E3F1E2902D10098C524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0834E4B1E290B350098C524 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0B93F891E2CF8FD00036D2B /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		A0DFBB391E323F6C00CCD126 /* FunctionsRegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionsRegisterVC.swift; sourceTree = "<group>"; };
+		A0DFBB3B1E32441C00CCD126 /* orangeMarketProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = orangeMarketProject.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1023E933967D39DD9FAB348E /* Pods_orangeMarketProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +107,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77519ECBF146015DEA3812DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				267C2936CD851CA23EDB0DBD /* Pods_orangeMarketProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A00A0E361E3227FE002F4F93 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				A019B5CE1E2CF13000966C31 /* SearchViewController.swift */,
+				A019B5D21E2CF1D600966C31 /* UISearchViewController.swift */,
+				A00A0E341E3227B0002F4F93 /* FunctionsSearchVC.swift */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		A00A0E391E322A12002F4F93 /* Enter */ = {
+			isa = PBXGroup;
+			children = (
+				A00A0E371E322A09002F4F93 /* EnterViewController.swift */,
+				A00A0E3C1E322B07002F4F93 /* functionsEnterVC.swift */,
+				A00A0E3A1E322A36002F4F93 /* UIEnterViewController.swift */,
+			);
+			name = Enter;
+			sourceTree = "<group>";
+		};
+		A00A0E421E3231D3002F4F93 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				A00A0E401E3231CF002F4F93 /* RegisterViewController.swift */,
+				A0DFBB391E323F6C00CCD126 /* FunctionsRegisterVC.swift */,
+				A00A0E431E3231F8002F4F93 /* UIRegisterViewController.swift */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
 		A0834E0E1E2902D00098C524 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +152,8 @@
 				A0834E311E2902D10098C524 /* orangeMarketProjectTests */,
 				A0834E3C1E2902D10098C524 /* orangeMarketProjectUITests */,
 				A0834E181E2902D10098C524 /* Products */,
+				CCB66098A1CE6A0822AA361B /* Pods */,
+				77519ECBF146015DEA3812DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +170,21 @@
 		A0834E191E2902D10098C524 /* orangeMarketProject */ = {
 			isa = PBXGroup;
 			children = (
+				A0DFBB3B1E32441C00CCD126 /* orangeMarketProject.entitlements */,
+				A0834E241E2902D10098C524 /* Assets.xcassets */,
 				A0834E1A1E2902D10098C524 /* AppDelegate.swift */,
 				A0834E1C1E2902D10098C524 /* ViewController.swift */,
-				A0834E1E1E2902D10098C524 /* Main.storyboard */,
-				A0834E241E2902D10098C524 /* Assets.xcassets */,
+				A0B93F891E2CF8FD00036D2B /* Users.swift */,
+				A02351031E3378A30030BBE0 /* GoogleService-Info.plist */,
+				A02350FB1E3372910030BBE0 /* Items.swift */,
+				A00A0E421E3231D3002F4F93 /* Register */,
+				A00A0E361E3227FE002F4F93 /* Search */,
+				A00A0E391E322A12002F4F93 /* Enter */,
+				A0834E4B1E290B350098C524 /* Main.storyboard */,
 				A0834E261E2902D10098C524 /* LaunchScreen.storyboard */,
 				A0834E291E2902D10098C524 /* Info.plist */,
 				A0834E211E2902D10098C524 /* orangeMarketProject.xcdatamodeld */,
+				A00A0E2F1E3222EC002F4F93 /* orangeMarketProject-Bridging-Header.h */,
 			);
 			path = orangeMarketProject;
 			sourceTree = "<group>";
@@ -128,6 +207,15 @@
 			path = orangeMarketProjectUITests;
 			sourceTree = "<group>";
 		};
+		CCB66098A1CE6A0822AA361B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C096BA4C2E6F3DE1CE58658 /* Pods-orangeMarketProject.debug.xcconfig */,
+				9EF8D6D525985A4EE44D79F9 /* Pods-orangeMarketProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0834E421E2902D10098C524 /* Build configuration list for PBXNativeTarget "orangeMarketProject" */;
 			buildPhases = (
+				A8C3DD814774CF086DCB15A0 /* [CP] Check Pods Manifest.lock */,
 				A0834E131E2902D00098C524 /* Sources */,
 				A0834E141E2902D00098C524 /* Frameworks */,
 				A0834E151E2902D00098C524 /* Resources */,
+				AE4381E46D7024657C1C74B2 /* [CP] Embed Pods Frameworks */,
+				78DA6CDFDCA6076330E256BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,7 +288,13 @@
 					A0834E161E2902D00098C524 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 937GVULYNU;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					A0834E2D1E2902D10098C524 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -238,9 +335,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0834E4C1E290B350098C524 /* Main.storyboard in Resources */,
+				A02351041E3378A30030BBE0 /* GoogleService-Info.plist in Resources */,
 				A0834E281E2902D10098C524 /* LaunchScreen.storyboard in Resources */,
 				A0834E251E2902D10098C524 /* Assets.xcassets in Resources */,
-				A0834E201E2902D10098C524 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +358,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		78DA6CDFDCA6076330E256BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-orangeMarketProject/Pods-orangeMarketProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8C3DD814774CF086DCB15A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE4381E46D7024657C1C74B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-orangeMarketProject/Pods-orangeMarketProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A0834E131E2902D00098C524 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A00A0E3D1E322B07002F4F93 /* functionsEnterVC.swift in Sources */,
+				A02350FC1E3372910030BBE0 /* Items.swift in Sources */,
 				A0834E1D1E2902D10098C524 /* ViewController.swift in Sources */,
 				A0834E231E2902D10098C524 /* orangeMarketProject.xcdatamodeld in Sources */,
+				A00A0E3B1E322A36002F4F93 /* UIEnterViewController.swift in Sources */,
+				A0DFBB3A1E323F6C00CCD126 /* FunctionsRegisterVC.swift in Sources */,
+				A019B5CF1E2CF13000966C31 /* SearchViewController.swift in Sources */,
 				A0834E1B1E2902D10098C524 /* AppDelegate.swift in Sources */,
+				A00A0E381E322A09002F4F93 /* EnterViewController.swift in Sources */,
+				A00A0E351E3227B0002F4F93 /* FunctionsSearchVC.swift in Sources */,
+				A00A0E411E3231CF002F4F93 /* RegisterViewController.swift in Sources */,
+				A0B93F8A1E2CF8FD00036D2B /* Users.swift in Sources */,
+				A019B5D31E2CF1D600966C31 /* UISearchViewController.swift in Sources */,
+				A00A0E441E3231F8002F4F93 /* UIRegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +460,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A0834E1E1E2902D10098C524 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A0834E1F1E2902D10098C524 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A0834E261E2902D10098C524 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -417,26 +566,37 @@
 		};
 		A0834E431E2902D10098C524 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C096BA4C2E6F3DE1CE58658 /* Pods-orangeMarketProject.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = orangeMarketProject/orangeMarketProject.entitlements;
 				DEVELOPMENT_TEAM = 937GVULYNU;
 				INFOPLIST_FILE = orangeMarketProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Vladimir.orangeMarketProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "orangeMarketProject/orangeMarketProject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		A0834E441E2902D10098C524 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EF8D6D525985A4EE44D79F9 /* Pods-orangeMarketProject.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = orangeMarketProject/orangeMarketProject.entitlements;
 				DEVELOPMENT_TEAM = 937GVULYNU;
 				INFOPLIST_FILE = orangeMarketProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Vladimir.orangeMarketProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "orangeMarketProject/orangeMarketProject-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -518,6 +678,7 @@
 				A0834E441E2902D10098C524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0834E451E2902D10098C524 /* Build configuration list for PBXNativeTarget "orangeMarketProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +687,7 @@
 				A0834E471E2902D10098C524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0834E481E2902D10098C524 /* Build configuration list for PBXNativeTarget "orangeMarketProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +696,7 @@
 				A0834E4A1E2902D10098C524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
